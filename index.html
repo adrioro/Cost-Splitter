@@ -6,8 +6,8 @@
       <meta name="viewport" content="width=device-width">
       <title>Interactive Quiz App</title>
       <link href="style.css" rel="stylesheet" type="text/css" />
-      <link href="stylesheet.css" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700 " rel="stylesheet ">
+      <link href="style.css" rel="stylesheet" />
+
    </head>
 
    <body>
@@ -19,13 +19,14 @@
          <div class="inputs">
 
             <div class="inputOne Box"></div>
-            Total Bill<input id="bill" type="number">
+            Total Bill<input id="bill" type="number" value=0 oninput="tipFunction()">
 
             <div class="inputTwo Box"></div>
-            Tip Percentage<input id="tip" type="number">
+            Tip Percentage<input id="tip" type="number" value=0 oninput="tipFunction()">
 
             <div class="inputThree Box"></div>
-            Number of People<input id="people" type="number">
+            Number of People<input id="people" type="number" value=0 oninput="tipFunction()">
+
          </div>
 
          <div class="results">
@@ -41,9 +42,6 @@
 
                <div id="total-per-person">0 $</div>
             </div>
-
-
-
 
          </div>
 
