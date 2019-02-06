@@ -11,26 +11,39 @@
    </head>
 
    <body>
+      <h1>Cost Splitter</h1>
+      <h3>calculate the tip per person and the total that has to be paid by each person.</h3>
 
       <div class="containerBox">
 
          <div class="inputs">
 
             <div class="inputOne Box"></div>
-            <input id="bill" type="number">
+            Total Bill<input id="bill" type="number">
 
             <div class="inputTwo Box"></div>
-            <input id="tip" type="number">
+            Tip Percentage<input id="tip" type="number">
 
             <div class="inputThree Box"></div>
-            <input id="people" type="number">
+            Number of People<input id="people" type="number">
          </div>
 
          <div class="results">
 
-            <div class="tip-per-person Box"></div>
+            <div class="tipBox">
+               <p>Tip Per Person</p>
 
-            <div class="total-per-person Box"></div>
+               <div id="tip-per-person">0 $</div>
+            </div>
+
+            <div class="totalBox">
+               <p>Total Per Person</p>
+
+               <div id="total-per-person">0 $</div>
+            </div>
+
+
+
 
          </div>
 

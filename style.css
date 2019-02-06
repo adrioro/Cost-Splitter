@@ -1,0 +1,51 @@
+body{
+  font-size: 16px;
+  font-family: sans-serif;
+}
+input{
+  margin: 9px;
+  width: auto;
+}
+
+.inputs, .results{
+  width: 190px;
+  margin: auto;
+  padding: 22px;
+
+}
+.results{
+  background-color: rgb(246, 239, 210);
+}
+.inputs{
+  text-align: left;
+  background-color:rgb(231, 221, 247);
+}
+
+.containerBox{
+  text-align: center;
+  background-color: rgb(244, 241, 245);
+  width:auto;
+  margin: 0px;
+  height: auto;
+
+}
+.tipBox, .totalBox{
+  padding
+}
+#tip-per-person, #total-per-person{
+  padding: 9px;
+  text-align: left;
+}
+p{
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: left;
+}
+h1, h3{
+  text-align: center;
+}
+h1{
+  background-color: rgb(244, 241, 245);
+  padding: 9px;
+  margin-top: 0px;
+}
