@@ -13,7 +13,10 @@ Tip per person should have id=”tip-per-person”.
 Total per person should have id=”total-per-person”.
 And finally, the value should be separated by space with the dollar sign.
 
-![alt text](github.com/adrioro/Cost-Splitter/blobl/master/images.css/writeUp.jpg)
-
 Screenshot:
-![alt text](github.com/adrioro/Cost-Splitter/blobl/master/images.css/ScreenShot02.png)
+
+![Screenshot](https://github.com/adrioro/Cost-Splitter/blob/master/images.css/ScreenShot02.png)
+
+WriteUp:
+
+![WriteUp](https://github.com/adrioro/Cost-Splitter/blob/master/images.css/writeUp.png)
