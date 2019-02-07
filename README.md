@@ -19,4 +19,4 @@ Screenshot:
 
 WriteUp:
 
-![WriteUp](https://github.com/adrioro/Cost-Splitter/blob/master/images.css/writeUp.png)
+![WriteUp](https://github.com/adrioro/Cost-Splitter/blob/master/images.css/writeUp.jpg)
