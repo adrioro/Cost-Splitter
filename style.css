@@ -6,7 +6,15 @@ input{
   margin: 9px;
   width: auto;
 }
-
+.subtitle, .myName{
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: center;
+}
+.myName{
+  font-size: 9px;
+}
 .inputs, .results{
   width: 190px;
   margin: auto;
@@ -30,9 +38,8 @@ input{
   text-align: center;
   background-color: rgb(244, 241, 245);
   width:auto;
-  margin: 0px;
   height: auto;
-
+  padding: 18px;
 }
 .tipBox, .totalBox{
   text-transform: uppercase;
@@ -57,4 +64,11 @@ h1{
   background-color: rgb(244, 241, 245);
   padding: 9px;
   margin-top: 0px;
+}
+.myImage{
+  width: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9px;
 }
