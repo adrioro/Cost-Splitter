@@ -22,11 +22,11 @@ function costFunction() { //Getting the input values.
         var tipPercentage = ((myBill / 100) * myTip)
         //Tip per person.
         var tipNumb = tipPercentage / myPeople;
-        document.getElementById("tip-per-person").innerHTML = tipNumb + " $";
+        document.getElementById("tip-per-person").innerHTML = Math.round(tipNumb) + " $";
 
         //Total per person.
         var totalNumb = (myBill / myPeople) + tipNumb;
-        document.getElementById("total-per-person").innerHTML = (totalNumb + " $")
+        document.getElementById("total-per-person").innerHTML = Math.round(totalNumb) + " $";
     };
 
     array.forEach(function (element) { //Display "0 $" unless all fields are filled.
