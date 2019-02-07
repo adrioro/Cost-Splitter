@@ -1,6 +1,7 @@
 //Removes "0" value from input field before user enters input.
 function removeZeroInputBillFunction() {
     document.getElementById("bill").value = "";
+    $("#bill").clickout;
 };
 
 function removeZeroInputTipFunction() {
