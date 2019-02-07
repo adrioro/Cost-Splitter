@@ -14,11 +14,16 @@ input{
 
 }
 .results{
-  background-color: rgb(246, 239, 210);
+  background-color: rgb(249, 245, 232);
+  border: 1px solid gray;
 }
 .inputs{
   text-align: left;
   background-color:rgb(231, 221, 247);
+  text-align: center;
+  border: 1px solid gray;
+  border-bottom: 0px;
+  font-weight: bold;
 }
 
 .containerBox{
@@ -30,16 +35,19 @@ input{
 
 }
 .tipBox, .totalBox{
-  padding
+  text-transform: uppercase;
 }
 #tip-per-person, #total-per-person{
   padding: 9px;
   text-align: left;
+  font-size: 36px;
+  text-align: center;
+  background-color: white;
 }
 p{
   text-decoration: underline;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 h1, h3{
   text-align: center;
