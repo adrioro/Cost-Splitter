@@ -43,6 +43,7 @@ input{
   font-size: 36px;
   text-align: center;
   background-color: white;
+  border-radius: 45px;
 }
 p{
   text-decoration: underline;
