@@ -20,13 +20,16 @@
          <div class="inputs">
 
             <div class="inputOne Box"></div>
-            Total Bill:<input id="bill" type="number" value=0 oninput="costFunction()">
+            Total Bill:<input id="bill" type="number" value=0 oninput="costFunction()"
+              onclick="removeZeroInputBillFunction()">
 
             <div class="inputTwo Box"></div>
-            Tip Percentage:<input id="tip" type="number" value=0 oninput="costFunction()">
+            Tip Percentage:<input id="tip" type="number" value=0 oninput="costFunction()"
+              onclick="removeZeroInputTipFunction()">
 
             <div class="inputThree Box"></div>
-            Number of People:<input id="people" type="number" value=0 oninput="costFunction()">
+            Number of People:<input id="people" type="number" value=0 oninput="costFunction()"
+              onclick="removeZeroInputPeopleFunction()">
 
          </div>
 

@@ -6,11 +6,13 @@ input{
   margin: 9px;
   width: auto;
 }
-.subtitle, .myName{
+.subtitle{
   font-size: 22px;
   text-decoration: none;
   font-weight: normal;
   text-align: center;
+  padding-left: 9px;
+  padding-right:9px;
 }
 .myName{
   font-size: 9px;
